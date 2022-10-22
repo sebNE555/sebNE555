@@ -1,0 +1,13 @@
+- 👋 Hi, I’m @sebNE555
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+
+<!---
+sebNE555/sebNE555 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+You can click the Preview link to take a look at your changes.
+--->
+Hello I'm interresting in learning
+
+Would be great to built code to calculate 3*(1+2) with ASM, I did it some years ago but lost it, it was by using - debug - with DOS, TASM time :)
