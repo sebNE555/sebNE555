@@ -1,0 +1,36 @@
+#exemple de chaine AA -> 170
+chaine="AA"
+
+#sys pour gérer une sortie de programme si un caractère entrée n'est pas autorisé
+import sys
+liste=['0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F']
+
+#traitement en avançant dans chaine de fin à début
+lon1=len(chaine)
+v=0
+for i in range(lon1):
+  j=lon1-i-1
+  c=chaine[j].upper()
+  if c not in liste:
+    sys.exit()
+  x=ord(c)
+  if x<65:
+    x=x+7
+  y=x-55
+  v=v+y*16**i
+print("valeur de ",chaine," est " ,v)
+
+
+#traitement en avançant dans la chaine de début à fin
+v=0
+i=len(chaine)-1
+for c in chaine:
+  if c not in liste:
+    sys.exit()
+  x=ord(c)
+  if x<65:
+    x=x+7
+  y=x-55
+  v=v+y*16**i
+  i=i-1
+print("valeur2 de", chaine," est ",v)
